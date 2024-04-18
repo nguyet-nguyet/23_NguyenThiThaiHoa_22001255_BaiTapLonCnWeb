@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background: url("../img/logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a img {
+    width: 260px;
+    height: 100px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px 20px;
+}
+
+.menu a:hover {
+    color: rgb(16, 199, 43);
+
+    border-bottom: 1px solid rgb(57, 236, 116);
+}
+
+section {
+    height: 80%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    float: left;
+    height: 300px;
+    width: 500px;
+    left: 220px;
+    top: 180px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+.mubaohiem {
+    position: absolute;
+    top: 10px;
+    font-size: 60px;
+    color: #6e0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.workshop {
+    position: absolute;
+    top: 70px;
+    font-size: 50px;
+    color: #03bcff;
+    font-family: "Pacifico";
+    text-align: center;
+}
+
+#registernow {
+    position: absolute;
+    top: 200px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+
+}
+.address{
+    margin: 20px 20px;
+    color: #ffffff;
+}
+.contact{
+    margin-bottom: 100px;
+}
+#registernow a {
+    color: #131313;
+    font-size: 17px;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    position: relative;
+    float: left;
+}
+
+.input {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 50px;
+    /* font-family: Comic Sans MS; */
+    font-size: 17px;
+    color: #b95151;
+    outline: none;
+    margin: 10px;
+    width: 350px;
+    background: #3b3640;
+    
+}
+  
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}

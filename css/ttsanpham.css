@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a img {
+    width: 260px;
+    height: 100px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px 20px;
+}
+
+.menu a:hover {
+    color: rgb(16, 199, 43);
+
+    border-bottom: 1px solid rgb(57, 236, 116);
+}
+
+h1 {margin: 0;}
+  
+main {padding: 40px;}
+  
+footer {
+    background-color: #dd6262;
+    padding: 20px;
+    text-align: center;
+  }
+  
+h2{margin-top: 40px;}
+  
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+  
+form {
+    max-width: 400px;
+    margin-top: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0800ff;
+    border-radius: 4px;
+}
+  
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+}
